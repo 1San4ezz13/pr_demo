@@ -1,0 +1,22 @@
+﻿<Page x:Class="praktika2535.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:praktika2535.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LoginPage">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Label Content="Логин" FontSize="18"></Label>
+            <TextBox x:Name="LoginTextBox"></TextBox>
+            <Button x:Name="LoginButton" Click="LoginButton_Click"
+             Content="Войти" Margin="10"></Button>
+            <Button x:Name="GuestButton" Click="GuestButton_Click"
+                    Content="Гостевой режим"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
